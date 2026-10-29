@@ -147,7 +147,7 @@ const ROUTES = [
       {
         id: "recommendations-01", number: 1,
         name: "Cosmic Pizza",
-        lat: 47.8129, lng: 13.0392,
+        lat: 47.81106927633836, lng: 13.039157167986952,
         category: "RESTAURANT",
         tags: ["Italian", "Authentic", "Vegan-friendly"],
         teaser: "Neapolitan-style pizza with a lively soundtrack.",
