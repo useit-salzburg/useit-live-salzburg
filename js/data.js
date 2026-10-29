@@ -93,7 +93,7 @@ const ROUTES = [
       {
         id: "history-02", number: 2,
         name: "A Palace of Two Stories",
-        lat: 47.7903807, lng: 13.0415357,
+        lat: 47.78843316368442, lng: 13.038914606746717,
         category: "HISTORIC LANDMARK",
         tags: ["Nature", "Lake", "History"],
         teaser: "A palace, a lake and a view that feels far from the city.",
