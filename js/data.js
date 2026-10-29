@@ -21,7 +21,7 @@ const ROUTES = [
         category: "VIEWPOINT",
         tags: ["Scenic", "Sunset", "Local favourite"],
         teaser: "A riverside pause worth coming back for.",
-        story: "Überfuhrsteg is a lovely place to slow down and watch the light change over the water. Come in the evening, take a breath and see why a familiar view can feel different every single time.",
+        story: "Come for a slow walk, watch the water drift by, and enjoy a different view of Salzburg away from the crowds. Especially lovely when the light begins to soften.",
         challenge: "Stay for a few minutes and notice how the colours change. Which part of the view would you photograph?",
         nextTip: "Keep following the water to discover another side of local Salzburg."
       },
@@ -32,7 +32,7 @@ const ROUTES = [
         category: "LANDMARK",
         tags: ["Water", "Nature", "Slow down"],
         teaser: "Let the water set the pace for a while.",
-        story: "Almomat is your reminder to take the slower route. Waterways and green edges offer a different rhythm from Salzburg's busy centre—ideal for a short pause, a walk and a little breathing room.",
+        story: "Almkanal is your reminder to take the slower route. Waterways and green edges offer a different rhythm from Salzburg's busy centre—ideal for a short pause, a walk and a little breathing room.",
         challenge: "Take a moment to listen. What sounds can you hear here besides the water?",
         nextTip: "Look for another place where nature interrupts the city's everyday rush."
       },
@@ -43,7 +43,7 @@ const ROUTES = [
         category: "CULTURAL HUB",
         tags: ["Music", "Culture", "Concerts"],
         teaser: "Find your rhythm in Salzburg's live-music scene.",
-        story: "Jazz im Theater is a tip for anyone who wants to experience Salzburg beyond its classical-music reputation. Live jazz brings people together in an intimate setting and gives the city a different soundtrack.",
+        story: "Jazzit is a tip for anyone who wants to experience Salzburg beyond its classical-music reputation. Live jazz brings people together in an intimate setting and gives the city a different soundtrack.",
         challenge: "Check what is playing or imagine your ideal live-music night. Which artist would you love to hear here?",
         nextTip: "Keep an ear out—local culture often happens away from the big stages."
       },
@@ -54,7 +54,7 @@ const ROUTES = [
         category: "VIEWPOINT",
         tags: ["Scenic", "Quiet", "Christmas market"],
         teaser: "A quieter view over Salzburg, with a seasonal bonus.",
-        story: "Maria Plain offers wide views and a calmer atmosphere above the city. If you visit in the festive season, look out for its cosy Christmas market—a lovely reason to make the trip in winter, too.",
+        story: "Maria Plain offers wide views and a calmer atmosphere above the city. If you visit in the festive season, look out for its cosy Christmas market, a lovely reason to make the trip in winter, too.",
         challenge: "Find a spot to take in the panorama. Can you identify a familiar Salzburg landmark from up here?",
         nextTip: "There is another viewpoint closer to town with a different perspective."
       },
@@ -92,12 +92,12 @@ const ROUTES = [
       },
       {
         id: "history-02", number: 2,
-        name: "Palace",
+        name: "A Palace of Two Stories",
         lat: 47.7903807, lng: 13.0415357,
         category: "HISTORIC LANDMARK",
         tags: ["Nature", "Lake", "History"],
         teaser: "A palace, a lake and a view that feels far from the city.",
-        story: "Schloss Leopoldskron sits beside a peaceful lake just outside Salzburg's busiest streets. Built in the eighteenth century for Prince-Archbishop Leopold Anton von Firmian, the palace is known for its architecture, lakeside setting and connection to the story of The Sound of Music.",
+        story: "A beautiful Rococo palace by the lake,  famous for The Sound of Music, but also carrying a darker history under Nazi occupation. One of those places where you sit, have a coffee, look at the water, and realise there’s so much more to a place than what meets the eye.",
         challenge: "Look across the water towards the palace. Which details of the building or landscape catch your eye first?",
         nextTip: "Continue exploring how Salzburg's history is shaped by both people and place."
       },
@@ -119,8 +119,8 @@ const ROUTES = [
         category: "BAKERY",
         tags: ["Bakery", "Landmark", "Bread"],
         teaser: "A taste of Salzburg's everyday history.",
-        story: "Near St. Peter's Abbey, the old bakery tradition is part of the city's living heritage. Salzburg's historic centre is full of grand monuments, but places connected with everyday essentials like bread tell another side of how the city has lived and worked over time.",
-        challenge: "Pause and notice the details around the bakery. What do you think has changed here over the years—and what might have stayed the same?",
+        story: "Hidden beside St. Peter’s Cemetery, this centuries-old bakery has been making bread since medieval times. Follow the smell of freshly baked sourdough to its traditional wood-fired oven, with an old mill powered by the waters of the Almkanal nearby. A little piece of Salzburg that feels untouched by time.",
+        challenge: "Pause and notice the details around the bakery. What do you think has changed here over the years and what might have stayed the same?",
         nextTip: "One last historical detail is waiting just around the corner."
       },
       {
@@ -130,9 +130,9 @@ const ROUTES = [
         category: "HISTORIC HERITAGE",
         tags: ["Landmark", "History", "Architecture"],
         teaser: "An old tunnel with a message carved in stone.",
-        story: "The Sigmundstor, also known as the Neutor, is the oldest road tunnel in present-day Austria. Above it, the Latin inscription ‘Te saxa loquuntur’ means ‘The stones speak of you’—a compliment to the archbishop who commissioned the tunnel.",
+        story: "The Sigmundstor, also known as the Neutor, is the oldest road tunnel in present-day Austria. Above it, the Latin inscription ‘Te saxa loquuntur’ means ‘The stones speak of you’, a compliment to the archbishop who commissioned the tunnel.",
         challenge: "Can you find the inscription above the tunnel? What kind of message would you leave for people who pass through here centuries from now?",
-        nextTip: "History is all around you—sometimes it is written right into the stone."
+        nextTip: "History is all around you, sometimes it is written right into the stone."
       }
     ]
   },
@@ -151,7 +151,7 @@ const ROUTES = [
         category: "RESTAURANT",
         tags: ["Italian", "Authentic", "Vegan-friendly"],
         teaser: "Neapolitan-style pizza with a lively soundtrack.",
-        story: "Cosmic Pizza serves Neapolitan-style pizza in a relaxed, music-filled setting. There are vegetarian and vegan options, making it a good stop for a casual meal with friends. You will find it on Saint-Julien-Straße near Salzburg's main station.",
+        story: "Cosmic Pizza serves Neapolitan-style pizza in a relaxed setting. There are vegetarian and vegan options, making it a good stop for a casual meal with friends. You will find it on Saint-Julien-Straße near Salzburg's main station.",
         challenge: "Have a look at the menu and see which topping you would choose. What makes a pizza place worth recommending to someone else?",
         nextTip: "Next, trade the city buzz for a small wildlife surprise by the water."
       },
@@ -168,7 +168,7 @@ const ROUTES = [
       },
       {
         id: "recommendations-03", number: 3,
-        name: "Stadtalm",
+        name: "Alpine Hut inside the City",
         lat: 47.7998176, lng: 13.0392533,
         category: "RESTAURANT",
         tags: ["Food", "View", "Mönchsberg"],
@@ -195,7 +195,7 @@ const ROUTES = [
         category: "VIEWPOINT",
         tags: ["Hiking", "Scenic", "Nature"],
         teaser: "A green escape from the busy old town.",
-        story: "Kapuzinerberg offers forest paths, fresh air and a different perspective on Salzburg. If you need a break from the crowds, the climb is part of the adventure—and the city views are worth slowing down for.",
+        story: "Kapuzinerberg offers forest paths, fresh air and a different perspective on Salzburg. If you need a break from the crowds, the climb is part of the adventure and the city views are worth slowing down for.",
         challenge: "Find a spot where the city appears between the trees. What can you see from here that you might miss down in the old town?",
         nextTip: "You have reached the end of the recommendations. Share your own favourite with USE-IT!"
       }
